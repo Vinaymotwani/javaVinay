@@ -2,7 +2,8 @@
 <suite name="JenkinsIntegrationSuite">
 <test name="SampleAPITests">
 <classes>
-<class name="com.apitests.SampleAPITest" />
+    <class name="com.api.automation.SimpleApiTest" />
 </classes>
 </test>
+
 </suite>
