@@ -1,7 +1,7 @@
 package com.apitests;
 import org.testng.annotations.Test;
 import static io.restassured.RestAssured.given;
-public class SampleAPITest {
+public class SimpleApiTest {
 // A simple, reliable API test using REST-Assured
 @Test
 public void verifyGitHubStatusIs200() {
@@ -20,4 +20,5 @@ given()
 .then()
 .statusCode(404); // Asserts the response code is 404 (Not Found)
 }
+
 }
