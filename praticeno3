@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio + DOM Practical</title>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Internal CSS -->
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f8f6ff;
+            transition: 0.3s;
+        }
+
+        header {
+            background: #dcd6f7;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .container {
+            display: flex;
+            padding: 30px;
+        }
+
+        .profile-img {
+            width: 200px;
+            border-radius: 10px;
+        }
+
+        .intro {
+            margin-left: 30px;
+        }
+
+        .section {
+            margin: 20px;
+            padding: 20px;
+            background: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        button {
+            margin: 5px;
+            padding: 8px 15px;
+            cursor: pointer;
+        }
+
+        footer {
+            background: #dcd6f7;
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Vinay Motwani</h1>
+    <p>Web Developer | Engineer</p>
+</header>
